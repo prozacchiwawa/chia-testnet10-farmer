@@ -1,0 +1,19 @@
+networks:
+  basic: null
+version: '2'
+services:
+  farmer:
+    container_name: farmer
+    image: chia/easytest:latest
+    command: ./chiatest-runner.py farmer
+    environment:
+    - HOME=/home/chia
+    networks:
+    - basic
+    working_dir: /home/chia
+    ports:
+    - 8555:8554
+    - 9987:9987
+    - 9256:9255
+    - 58444:58444
+    depends_on: []
