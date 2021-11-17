@@ -62,7 +62,7 @@ wallet RPC ports.
     using CHIA_ROOT=/tmp/chia.1056856.root/mainnet
     $ cd ~/dev/chia/checkers
     $ python3 ./gamewallet.py --my-pk
-82bc9a58a21874c177c017fffb7e01725a65dc95e7b434663f9cb20f66b22a14ff0adb4ad1b46c632fe5d8c44bf3cb51
+    82bc9a58a21874c177c017fffb7e01725a65dc95e7b434663f9cb20f66b22a14ff0adb4ad1b46c632fe5d8c44bf3cb51
 
 # Notes
 
